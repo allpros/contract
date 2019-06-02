@@ -19,7 +19,7 @@ contract Presale {
     address owner;
     address constant multisig = 0xfBE55DE3383ec44c39FF839FbAF9A6d769251544;
     uint256 constant pricePerToken = 400000000;  // (wei per PRO)
-    uint256 public tokensAvailable = 9450000 * (10**6);  // Whitepaper 9.45mil * 10^6
+    uint256 public tokensAvailable = 7000000 * (10**6);  // Whitepaper 7M * 10^6
 
     event LogRefund(uint256 _amount);
     event LogEnded(bool _soldOut);
