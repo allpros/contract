@@ -12,7 +12,7 @@ contract AllProsToken is ERC20TokenInterface {
     string public constant name = "AllProsToken";
     string public constant symbol = "PRO";
     uint256 public constant decimals = 6;
-    uint256 public constant totalTokens = 100000000 * (10 ** decimals);
+    uint256 public constant totalTokens = 7000000 * (10 ** decimals);
 
     mapping (address => uint256) public balances;
     mapping (address => mapping (address => uint256)) public allowed;
